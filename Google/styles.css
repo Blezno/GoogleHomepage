@@ -16,7 +16,7 @@ text-align: right;
 
 .recherche
 {
- border: 20px;
+ border: 1px solid;
  border-color: black;
  border-radius: 60px;
  padding: 10px 20 px;
@@ -32,21 +32,13 @@ text-align: right;
     max-width: 700px;
     display: flex;
     align-items: center;
+    opacity: 0;
     padding: 10px 20 px;
-}
-
-.barre input 
-{
-    background: transparent;
-    flex: 1;
-    border: 1;
-    outline: black;
-    padding: 24px 20 px;
-    font-size: 20px;
 }
 
 .loupe
 {
     height: 25px;
+    padding: 5px;
 
 }
