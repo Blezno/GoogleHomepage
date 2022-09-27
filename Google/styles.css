@@ -1,0 +1,52 @@
+.header
+{
+text-align: right;
+}
+
+.google
+{
+    text-align: center;
+}
+.logo
+{
+   height: 92px;
+   width: 272px;
+
+}
+
+.recherche
+{
+ border: 20px;
+ border-color: black;
+ border-radius: 60px;
+ padding: 10px 20 px;
+ margin:30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.barre
+{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20 px;
+}
+
+.barre input 
+{
+    background: transparent;
+    flex: 1;
+    border: 1;
+    outline: black;
+    padding: 24px 20 px;
+    font-size: 20px;
+}
+
+.loupe
+{
+    height: 25px;
+
+}
